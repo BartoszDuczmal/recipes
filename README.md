@@ -5,3 +5,6 @@ Funkcjonalności:
 - dodawanie przepisów do ulubionych
 - możliwość wyszukiwania przpisów przy pomocy wyszukiwarki
 - możliwość filtrowania przepisów ulubionych
+
+Aby zobaczyć projekt wejdź na 
+https://bartoszduczmal.github.io/recipes/

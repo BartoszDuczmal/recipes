@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-wrap: nowrap;
+}
+
+input {
+  padding: 1em;
+  border-radius: 15px;
+  width: 220px;
+}
+
+#addForm {
+  display: flex;
+  flex-direction: row;
+}
+
+#search {
+  margin: 1.2em;
+  width: 400px;
+}
+.task {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: #1a1a1a;
+  border-radius: 15px;
+  font-weight: 600;
+}
+#favorite {
+  color: gray;
+  cursor: pointer;
+}
+.liked {
+  color: red !important;
+}
+#delete {
+  color: gray;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  gap: 30px;
+}
+.recipeText {
+  display: flex;
+  flex-direction: column;
+}
+.recipeDescribe {
+  color: gray;
+  font-weight: 800;
+  font-size: 0.7em;
+  text-align: start;
+}
+.recipeTitle {
+  margin-bottom: 0;
+  text-align: start;
+}
+#searchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#heartDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6em 1em;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  font-weight: 600;
+}
